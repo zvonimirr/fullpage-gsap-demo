@@ -3,3 +3,28 @@
   align-items: center;
   justify-content: center;
 }
+
+#container {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+}
+
+#container :last-child {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.red {
+  background-color: red;
+}
+
+.content {
+  text-align: center;
+}
